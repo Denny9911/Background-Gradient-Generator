@@ -1,0 +1,63 @@
+body {
+	font: 'Montserrat', sans-serif;
+	color:  #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	background: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+	font: 600 3.5em 'Montserrat', sans-serif;
+	color:  #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	width:  100%;
+	letter-spacing: 1px;
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 110px;
+	line-height: .90;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+	color:  #FFF;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
+
+.random {
+display: inline-block;
+outline: 0;
+border:0;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase;
+position: relative;
+color: rgb(69, 69, 69);
+background: #fff;
+line-height: 30px;
+border-radius: 40px;
+padding: 20px;
+font-size: 30px;
+font-weight: 600;
+box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+transition: all 0.2s;
+margin-top: 0.5em;
+}
+.random:hover{
+	box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+	transform: scale(1.01);
+}
+
+.color1, .color2 {
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
